@@ -1,0 +1,362 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="TestSuite" time="198.108" tests="1" errors="0" skipped="0" failures="1">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.7.0_79\jre\bin"/>
+    <property name="java.vm.version" value="24.79-b02"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\Users\jerrick.m.falogme\Downloads\HCM-Configs\HCM-Configs\HCM-Configs\hcmselenium"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value="Service Pack 1"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="C:\Users\jerrick.m.falogme\Downloads\HCM-Configs\HCM-Configs\HCM-Configs\hcmselenium"/>
+    <property name="java.runtime.version" value="1.7.0_79-b15"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.7.0_79\jre\lib\endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\JERRIC~1.FAL\AppData\Local\Temp\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 7"/>
+    <property name="classworlds.conf" value="C:\Users\jerrick.m.falogme\workspace\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf1367102651063334090.tmp"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.7.0_79\bin;C:\windows\Sun\Java\bin;C:\windows\system32;C:\windows;C:/Program Files/Java/jdk1.7.0_79/bin/../jre/bin/server;C:/Program Files/Java/jdk1.7.0_79/bin/../jre/bin;C:/Program Files/Java/jdk1.7.0_79/bin/../jre/lib/amd64;C:\Program Files\Java\jdk1.7.0_79\bin;C:\ProgramData\Oracle\Java\javapath;devops-123\bin;C:\apache-ant-1.9.6\bin;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Microsoft SQL Server\120\Tools\Binn\;c:\Program Files (x86)\Microsoft SQL Server\110\Tools\Binn\;c:\Program Files\Microsoft SQL Server\110\Tools\Binn\;c:\Program Files\Microsoft SQL Server\110\DTS\Binn\;C:\windows\system32\config\systemprofile\.dnx\bin;C:\Program Files\Microsoft DNX\Dnvm\;C:\opscode\chefdk\bin\;C:\Users\jerrick.m.falogme\Downloads\ruby-2.3.0\ruby-2.3.0\bin;C:\Users\jerrick.m.falogme\Downloads\eclipse-jee-mars-R-win32-x86_64\eclipse;;."/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="51.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="6.1"/>
+    <property name="user.home" value="C:\Users\jerrick.m.falogme"/>
+    <property name="user.timezone" value="Asia/Shanghai"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.7"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="user.name" value="jerrick.m.falogme"/>
+    <property name="java.class.path" value="/C:/Users/jerrick.m.falogme/Downloads/eclipse-jee-mars-R-win32-x86_64/eclipse/plugins/org.eclipse.m2e.maven.runtime_1.6.0.20150526-2031/jars/plexus-classworlds-2.5.2.jar"/>
+    <property name="java.vm.specification.version" value="1.7"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.7.0_79\jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -B -P selenium-projectname-regression-test clean test"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.7.0_79"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.7.0_79\jre\lib\ext;C:\windows\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.7.0_79\jre\lib\resources.jar;C:\Program Files\Java\jdk1.7.0_79\jre\lib\rt.jar;C:\Program Files\Java\jdk1.7.0_79\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.7.0_79\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.7.0_79\jre\lib\jce.jar;C:\Program Files\Java\jdk1.7.0_79\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.7.0_79\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.7.0_79\jre\classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="C:\Users\jerrick.m.falogme\Downloads\HCM-Configs\HCM-Configs\HCM-Configs\hcmselenium\EMBEDDED"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase name="a_test" classname="hcm.tests.PersonManagementTest" time="198.108">
+    <failure message="30 second/s has elapsed after waiting for: //button[text()=&apos;es&apos;]&#10;Build info: version: &apos;2.52.0&apos;, revision: &apos;4c2593cfc3689a7fcd7be52549167e5ccc93ad28&apos;, time: &apos;2016-02-11 11:22:43&apos;&#10;System info: host: &apos;ETDB-510P680-D&apos;, ip: &apos;169.254.231.255&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.7.0_79&apos;&#10;Driver info: driver.version: unknown" type="org.openqa.selenium.TimeoutException">org.openqa.selenium.TimeoutException: 30 second/s has elapsed after waiting for: //button[text()='es']
+Build info: version: '2.52.0', revision: '4c2593cfc3689a7fcd7be52549167e5ccc93ad28', time: '2016-02-11 11:22:43'
+System info: host: 'ETDB-510P680-D', ip: '169.254.231.255', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.7.0_79'
+Driver info: driver.version: unknown
+	at common.TaskUtilities.customWaitForElementVisibility(TaskUtilities.java:175)
+	at hcm.tests.PersonManagementTest.assignDepartment(PersonManagementTest.java:153)
+	at hcm.tests.PersonManagementTest.a_test(PersonManagementTest.java:32)
+</failure>
+    <system-out><![CDATA[...
+... TestNG 6.9.6 by CÃ©dric Beust (cedric@beust.com)
+...
+
+
+===== Executing PersonManagementTest :Test Case 1 =====
+
+Running Test in FireFox
+Checking landed page...  We landed on the correct page: login-aufsn4x0cba.oracleoutsourcing.com/oam/server/obrareq.cgi
+Entered User ID...
+Entered Password...
+Clicked Sign In Button...
+Checking landed page...  We landed on the correct page: /hcmCore/faces/FuseWelcome
+Clicked the Navigator...
+Person Management link has been clicked...
+Excel Input has been passed as a string
+Validating if dataLocator: Name is visible.
+Element is now visible after 0 second/s.....
+Name is now visible...
+Attempting to find known valid path for dataLocator: Name
+Assigned label path: //label[text()=' Name']
+x9w
+Now holding: pt1:USma:0:MAnt1:0:pt1:Perso1:0:AP1:q1:value00::content
+Input reference id is pt1:USma:0:MAnt1:0:pt1:Perso1:0:AP1:q1:value00::content
+Valid input path has been found...
+Attempting to catch element.....
+Element has been refreshed after 0 tries.....
+Clicked  input...
+Clicking Search button...
+Element is now visible after 3 second/s.....
+Clicking Lucena, John Lester link...
+Element is now visible after 6 second/s.....
+Checking landed page...  We landed on the correct page: /hcmCore/faces/HcmIntWA
+Clicking Manage Employment link...
+Element is now visible after 5 second/s.....
+Clicking  div...
+Element is now visible after 0 second/s.....
+Clicking  td...
+Element is now visible after 2 second/s.....
+Excel Input has been passed as a string
+Excel Input has been passed as a string
+Now holding: Action
+Validating if dataLocator: Action is visible.
+Element is now visible after 0 second/s.....
+Action is now visible...
+Attempting to find known valid path for dataLocator: Action
+Assigned label path: //label[text()='Action']
+af_panelLabelAndMessage_label-text
+Now holding: null
+af_selectOneChoice_label-text
+Now holding: pt1:USma:0:MAt2:1:pt1:Manag1:0:AP1:actionsName1::content
+Input reference id is pt1:USma:0:MAt2:1:pt1:Manag1:0:AP1:actionsName1::content
+Valid input path has been found...
+Attempting to catch element.....
+Element has been refreshed after 0 tries.....
+Clicked Add New Department
+Add Assignment
+Adoption Leave
+Adoption Leave
+Annual Leave
+Annual Leave
+Annual Leave
+Annual Leave
+Annual Leave
+Assgn Comp
+Assignment Change
+Assignment Completion
+Assignment PS
+Assignment PSFT
+Award NM
+Child Adoption Leave
+Comp Intro
+Data Migration
+Demo Action
+Demote Inst
+Demotion
+Divorce Leave
+End Assignment
+End Probation Period
+Extend Temporary Assignment
+Global Temporary Assignment
+Global Transfer
+HDL ASG Change
+Hospital Leave
+Hospital Leave
+Hospital Leave
+Job Change
+Job Code Change
+Job Reclas
+LDT with Pay
+Leave
+Leave Of Absences Witohout Pay
+Leave Of Absences Witohout Pay
+Leave Of Absences Witohout Pay
+Leave Of Absences Witohout Pay
+Leave of Absence
+Leave of Absence
+Leave of Absence
+Leave of Absence
+Leave of Absence
+Leave of Absence
+Leave of Absence
+Leave of Absence
+Leave of Absence
+Leave of Absence
+Leave of Absence
+Leave of Absence
+Location Change
+MK Test Asign
+MK Test Asign1
+MKAdd201
+Manager Change
+Marriage Leave
+Maternity Leave
+Maternity Leave
+NBS Return from Leave
+PATERNITY Leave
+POC Action 01
+POC Action 01
+POC Action 02
+POC Action 02
+PS Global Transfer
+Paid Leave
+Paternity Leave
+Position Change
+Probation
+Promote PS
+Promotion
+Promotion
+Retirement
+Return from Leave
+Return from Leave
+Return from Leave
+Return from Leave
+Return from Leave
+Return from Leave
+Return from Leave
+Return from Leave
+Return from Leave
+Return from Leave
+Return from Leave
+Return from Leave
+Share Leave
+Share Leave
+Share Leave
+Share Leave
+Share Leave
+Sick Leave
+Special Disability Leave
+Start Probation Period
+Study Leave
+Study Leave
+Study Leave
+Suspend Assignment
+Suspension
+Temporary Assignment
+Transfer
+Trasnfer PS
+Working Hours Change
+XX Demo
+shared Leave select...
+Element is now visible after 0 second/s.....
+Attempting to catch element.....
+Element has been refreshed after 0 tries.....
+Clicked Add New Department option...
+Excel Input has been passed as a Date
+Old value is : Wed Dec 12 00:00:00 CST 2012
+the value is now: 12/12/2012
+Excel Input has been passed as a string
+Now holding: Effective Start Date
+Validating if dataLocator: Effective Start Date is visible.
+Element is now visible after 0 second/s.....
+Effective Start Date is now visible...
+Attempting to find known valid path for dataLocator: Effective Start Date
+Assigned label path: //label[text()='Effective Start Date']
+af_panelLabelAndMessage_label-text
+Now holding: null
+af_inputDate_label-text
+Now holding: pt1:USma:0:MAt2:1:pt1:Manag1:0:AP1:effectiveDate::content
+Input reference id is pt1:USma:0:MAt2:1:pt1:Manag1:0:AP1:effectiveDate::content
+Valid input path has been found...
+Attempting to catch element.....
+Element has been refreshed after 0 tries.....
+Clicked  input...
+Clicking OK button...
+Verifying container value.....
+Last container value: 'Error: The date is before the valid range. The date must be on or after 11/10/2015.Example: 11/29/1998Enter a date on or after 11/10/2015.'
+after 5 tries.
+Attempting to catch element.....
+Element has been refreshed after 0 tries.....
+Clicked  input...
+Clicking OK button...
+Excel Input has been passed as a string
+Element is now visible after 7 second/s.....
+Element is now visible after 0 second/s.....
+Validating if dataLocator: Department is visible.
+Element is now visible after 0 second/s.....
+Department is now visible...
+Attempting to find known valid path for dataLocator: Department
+Assigned label path: //label[text()='Department']
+af_inputComboboxListOfValues_label-text
+Now holding: pt1:USma:0:MAt2:1:pt1:Manag1:1:r:JobDe1:0:departmentId::content
+Input reference id is pt1:USma:0:MAt2:1:pt1:Manag1:1:r:JobDe1:0:departmentId::content
+Valid input path has been found...
+Attempting to catch element.....
+Element has been refreshed after 0 tries.....
+Clicked  input...
+Clicking Review button...
+Verifying container value.....
+Last container value: ''
+after 1 tries.
+Verifying container value.....
+Last container value: '<div id="d1::msgDlg" class="xim"><div class="x1kt" _afrpanelwindowbackground="1"></div><div class="x1kt" _afrpanelwindowbackground="1"></div><div class="x1kt" _afrpanelwindowbackground="1"></div><div class="x1kt" _afrpanelwindowbackground="1"></div><table summary="" class="xej" border="0" cellpadding="0" cellspacing="0"><tbody><tr><td class="p_AFResizable x1jw" id="d1::msgDlg::_hse">&nbsp;</td><td class="p_AFResizable x1jy" id="d1::msgDlg::_hce"><table summary="" width="100%" border="0" cellpadding="0" cellspacing="0"><tbody><tr><td><div id="d1::msgDlg::_ticn" class="x1kn" style="display:none"></div></td><td class="x1k2" id="d1::msgDlg::tb"><div id="d1::msgDlg::_ttxt" class="x1kl"></div></td><td><div class="x1kp"><a href="#" onclick="return false" class="x1kg" id="d1::msgDlg::close" title="Close"></a></div></td></tr></tbody></table></td><td class="p_AFResizable x1k0" id="d1::msgDlg::_hee">&nbsp;</td></tr><tr><td class="p_AFResizable xlj" id="d1::msgDlg::_cse">&nbsp;</td><td class="p_AFResizable x1o" id="d1::msgDlg::contentContainer"><div id="d1::msgDlg::_ccntr" class="x1k5" style="position:relative;overflow:auto;"><div id="d1::msgDlg::_cnt" class="x1gm"></div></div></td><td class="p_AFResizable xls" id="d1::msgDlg::_cee">&nbsp;</td></tr><tr><td class="p_AFResizable x1k9" id="d1::msgDlg::_fse"><div></div></td><td class="p_AFResizable x1kb" id="d1::msgDlg::_fce"><table summary="" width="100%" border="0" cellpadding="0" cellspacing="0"><tbody><tr><td class="p_AFResizable x1ke" id="d1::msgDlg::_fcc"><button _afrpdo="cancel" type="button" id="d1::msgDlg::cancel" class="xqv p_AFTextOnly" onclick="return false;">OK</button></td><td valign="bottom" align="left"><div class="p_AFResizable x1kk"><a tabindex="-1" class="x1ki" id="d1::msgDlg::_ree" title="Resize"></a></div></td></tr></tbody></table></td><td class="p_AFResizable x1kd" id="d1::msgDlg::_fee"><div></div></td></tr></tbody></table></div>'
+after 5 tries.
+Verifying container value.....
+Last container value: ''
+after 1 tries.
+Verifying container value.....
+Last container value: '<div id="d1::msgDlg" class="xim"><div class="x1kt" _afrpanelwindowbackground="1"></div><div class="x1kt" _afrpanelwindowbackground="1"></div><div class="x1kt" _afrpanelwindowbackground="1"></div><div class="x1kt" _afrpanelwindowbackground="1"></div><table summary="" class="xej" border="0" cellpadding="0" cellspacing="0"><tbody><tr><td class="p_AFResizable x1jw" id="d1::msgDlg::_hse">&nbsp;</td><td class="p_AFResizable x1jy" id="d1::msgDlg::_hce"><table summary="" width="100%" border="0" cellpadding="0" cellspacing="0"><tbody><tr><td><div id="d1::msgDlg::_ticn" class="x1kn" style="display:none"></div></td><td class="x1k2" id="d1::msgDlg::tb"><div id="d1::msgDlg::_ttxt" class="x1kl"></div></td><td><div class="x1kp"><a href="#" onclick="return false" class="x1kg" id="d1::msgDlg::close" title="Close"></a></div></td></tr></tbody></table></td><td class="p_AFResizable x1k0" id="d1::msgDlg::_hee">&nbsp;</td></tr><tr><td class="p_AFResizable xlj" id="d1::msgDlg::_cse">&nbsp;</td><td class="p_AFResizable x1o" id="d1::msgDlg::contentContainer"><div id="d1::msgDlg::_ccntr" class="x1k5" style="position:relative;overflow:auto;"><div id="d1::msgDlg::_cnt" class="x1gm"></div></div></td><td class="p_AFResizable xls" id="d1::msgDlg::_cee">&nbsp;</td></tr><tr><td class="p_AFResizable x1k9" id="d1::msgDlg::_fse"><div></div></td><td class="p_AFResizable x1kb" id="d1::msgDlg::_fce"><table summary="" width="100%" border="0" cellpadding="0" cellspacing="0"><tbody><tr><td class="p_AFResizable x1ke" id="d1::msgDlg::_fcc"><button _afrpdo="cancel" type="button" id="d1::msgDlg::cancel" class="xqv p_AFTextOnly" onclick="return false;">OK</button></td><td valign="bottom" align="left"><div class="p_AFResizable x1kk"><a tabindex="-1" class="x1ki" id="d1::msgDlg::_ree" title="Resize"></a></div></td></tr></tbody></table></td><td class="p_AFResizable x1kd" id="d1::msgDlg::_fee"><div></div></td></tr></tbody></table></div>'
+after 5 tries.
+Verifying container value.....
+Last container value: ''
+after 1 tries.
+Verifying container value.....
+Last container value: '<div id="d1::msgDlg" class="xim"><div class="x1kt" _afrpanelwindowbackground="1"></div><div class="x1kt" _afrpanelwindowbackground="1"></div><div class="x1kt" _afrpanelwindowbackground="1"></div><div class="x1kt" _afrpanelwindowbackground="1"></div><table summary="" class="xej" border="0" cellpadding="0" cellspacing="0"><tbody><tr><td class="p_AFResizable x1jw" id="d1::msgDlg::_hse">&nbsp;</td><td class="p_AFResizable x1jy" id="d1::msgDlg::_hce"><table summary="" width="100%" border="0" cellpadding="0" cellspacing="0"><tbody><tr><td><div id="d1::msgDlg::_ticn" class="x1kn" style="display:none"></div></td><td class="x1k2" id="d1::msgDlg::tb"><div id="d1::msgDlg::_ttxt" class="x1kl"></div></td><td><div class="x1kp"><a href="#" onclick="return false" class="x1kg" id="d1::msgDlg::close" title="Close"></a></div></td></tr></tbody></table></td><td class="p_AFResizable x1k0" id="d1::msgDlg::_hee">&nbsp;</td></tr><tr><td class="p_AFResizable xlj" id="d1::msgDlg::_cse">&nbsp;</td><td class="p_AFResizable x1o" id="d1::msgDlg::contentContainer"><div id="d1::msgDlg::_ccntr" class="x1k5" style="position:relative;overflow:auto;"><div id="d1::msgDlg::_cnt" class="x1gm"></div></div></td><td class="p_AFResizable xls" id="d1::msgDlg::_cee">&nbsp;</td></tr><tr><td class="p_AFResizable x1k9" id="d1::msgDlg::_fse"><div></div></td><td class="p_AFResizable x1kb" id="d1::msgDlg::_fce"><table summary="" width="100%" border="0" cellpadding="0" cellspacing="0"><tbody><tr><td class="p_AFResizable x1ke" id="d1::msgDlg::_fcc"><button _afrpdo="cancel" type="button" id="d1::msgDlg::cancel" class="xqv p_AFTextOnly" onclick="return false;">OK</button></td><td valign="bottom" align="left"><div class="p_AFResizable x1kk"><a tabindex="-1" class="x1ki" id="d1::msgDlg::_ree" title="Resize"></a></div></td></tr></tbody></table></td><td class="p_AFResizable x1kd" id="d1::msgDlg::_fee"><div></div></td></tr></tbody></table></div>'
+after 5 tries.
+Verifying container value.....
+Last container value: ''
+after 1 tries.
+Verifying container value.....
+Last container value: '<div id="d1::msgDlg" class="xim"><div class="x1kt" _afrpanelwindowbackground="1"></div><div class="x1kt" _afrpanelwindowbackground="1"></div><div class="x1kt" _afrpanelwindowbackground="1"></div><div class="x1kt" _afrpanelwindowbackground="1"></div><table summary="" class="xej" border="0" cellpadding="0" cellspacing="0"><tbody><tr><td class="p_AFResizable x1jw" id="d1::msgDlg::_hse">&nbsp;</td><td class="p_AFResizable x1jy" id="d1::msgDlg::_hce"><table summary="" width="100%" border="0" cellpadding="0" cellspacing="0"><tbody><tr><td><div id="d1::msgDlg::_ticn" class="x1kn" style="display:none"></div></td><td class="x1k2" id="d1::msgDlg::tb"><div id="d1::msgDlg::_ttxt" class="x1kl"></div></td><td><div class="x1kp"><a href="#" onclick="return false" class="x1kg" id="d1::msgDlg::close" title="Close"></a></div></td></tr></tbody></table></td><td class="p_AFResizable x1k0" id="d1::msgDlg::_hee">&nbsp;</td></tr><tr><td class="p_AFResizable xlj" id="d1::msgDlg::_cse">&nbsp;</td><td class="p_AFResizable x1o" id="d1::msgDlg::contentContainer"><div id="d1::msgDlg::_ccntr" class="x1k5" style="position:relative;overflow:auto;"><div id="d1::msgDlg::_cnt" class="x1gm"></div></div></td><td class="p_AFResizable xls" id="d1::msgDlg::_cee">&nbsp;</td></tr><tr><td class="p_AFResizable x1k9" id="d1::msgDlg::_fse"><div></div></td><td class="p_AFResizable x1kb" id="d1::msgDlg::_fce"><table summary="" width="100%" border="0" cellpadding="0" cellspacing="0"><tbody><tr><td class="p_AFResizable x1ke" id="d1::msgDlg::_fcc"><button _afrpdo="cancel" type="button" id="d1::msgDlg::cancel" class="xqv p_AFTextOnly" onclick="return false;">OK</button></td><td valign="bottom" align="left"><div class="p_AFResizable x1kk"><a tabindex="-1" class="x1ki" id="d1::msgDlg::_ree" title="Resize"></a></div></td></tr></tbody></table></td><td class="p_AFResizable x1kd" id="d1::msgDlg::_fee"><div></div></td></tr></tbody></table></div>'
+after 5 tries.
+Verifying container value.....
+Last container value: ''
+after 1 tries.
+Verifying container value.....
+Last container value: '<div id="d1::msgDlg" class="xim"><div class="x1kt" _afrpanelwindowbackground="1"></div><div class="x1kt" _afrpanelwindowbackground="1"></div><div class="x1kt" _afrpanelwindowbackground="1"></div><div class="x1kt" _afrpanelwindowbackground="1"></div><table summary="" class="xej" border="0" cellpadding="0" cellspacing="0"><tbody><tr><td class="p_AFResizable x1jw" id="d1::msgDlg::_hse">&nbsp;</td><td class="p_AFResizable x1jy" id="d1::msgDlg::_hce"><table summary="" width="100%" border="0" cellpadding="0" cellspacing="0"><tbody><tr><td><div id="d1::msgDlg::_ticn" class="x1kn" style="display:none"></div></td><td class="x1k2" id="d1::msgDlg::tb"><div id="d1::msgDlg::_ttxt" class="x1kl"></div></td><td><div class="x1kp"><a href="#" onclick="return false" class="x1kg" id="d1::msgDlg::close" title="Close"></a></div></td></tr></tbody></table></td><td class="p_AFResizable x1k0" id="d1::msgDlg::_hee">&nbsp;</td></tr><tr><td class="p_AFResizable xlj" id="d1::msgDlg::_cse">&nbsp;</td><td class="p_AFResizable x1o" id="d1::msgDlg::contentContainer"><div id="d1::msgDlg::_ccntr" class="x1k5" style="position:relative;overflow:auto;"><div id="d1::msgDlg::_cnt" class="x1gm"></div></div></td><td class="p_AFResizable xls" id="d1::msgDlg::_cee">&nbsp;</td></tr><tr><td class="p_AFResizable x1k9" id="d1::msgDlg::_fse"><div></div></td><td class="p_AFResizable x1kb" id="d1::msgDlg::_fce"><table summary="" width="100%" border="0" cellpadding="0" cellspacing="0"><tbody><tr><td class="p_AFResizable x1ke" id="d1::msgDlg::_fcc"><button _afrpdo="cancel" type="button" id="d1::msgDlg::cancel" class="xqv p_AFTextOnly" onclick="return false;">OK</button></td><td valign="bottom" align="left"><div class="p_AFResizable x1kk"><a tabindex="-1" class="x1ki" id="d1::msgDlg::_ree" title="Resize"></a></div></td></tr></tbody></table></td><td class="p_AFResizable x1kd" id="d1::msgDlg::_fee"><div></div></td></tr></tbody></table></div>'
+after 5 tries.
+Verifying container value.....
+Last container value: ''
+after 1 tries.
+Verifying container value.....
+Last container value: '<div id="d1::msgDlg" class="xim"><div class="x1kt" _afrpanelwindowbackground="1"></div><div class="x1kt" _afrpanelwindowbackground="1"></div><div class="x1kt" _afrpanelwindowbackground="1"></div><div class="x1kt" _afrpanelwindowbackground="1"></div><table summary="" class="xej" border="0" cellpadding="0" cellspacing="0"><tbody><tr><td class="p_AFResizable x1jw" id="d1::msgDlg::_hse">&nbsp;</td><td class="p_AFResizable x1jy" id="d1::msgDlg::_hce"><table summary="" width="100%" border="0" cellpadding="0" cellspacing="0"><tbody><tr><td><div id="d1::msgDlg::_ticn" class="x1kn" style="display:none"></div></td><td class="x1k2" id="d1::msgDlg::tb"><div id="d1::msgDlg::_ttxt" class="x1kl"></div></td><td><div class="x1kp"><a href="#" onclick="return false" class="x1kg" id="d1::msgDlg::close" title="Close"></a></div></td></tr></tbody></table></td><td class="p_AFResizable x1k0" id="d1::msgDlg::_hee">&nbsp;</td></tr><tr><td class="p_AFResizable xlj" id="d1::msgDlg::_cse">&nbsp;</td><td class="p_AFResizable x1o" id="d1::msgDlg::contentContainer"><div id="d1::msgDlg::_ccntr" class="x1k5" style="position:relative;overflow:auto;"><div id="d1::msgDlg::_cnt" class="x1gm"></div></div></td><td class="p_AFResizable xls" id="d1::msgDlg::_cee">&nbsp;</td></tr><tr><td class="p_AFResizable x1k9" id="d1::msgDlg::_fse"><div></div></td><td class="p_AFResizable x1kb" id="d1::msgDlg::_fce"><table summary="" width="100%" border="0" cellpadding="0" cellspacing="0"><tbody><tr><td class="p_AFResizable x1ke" id="d1::msgDlg::_fcc"><button _afrpdo="cancel" type="button" id="d1::msgDlg::cancel" class="xqv p_AFTextOnly" onclick="return false;">OK</button></td><td valign="bottom" align="left"><div class="p_AFResizable x1kk"><a tabindex="-1" class="x1ki" id="d1::msgDlg::_ree" title="Resize"></a></div></td></tr></tbody></table></td><td class="p_AFResizable x1kd" id="d1::msgDlg::_fee"><div></div></td></tr></tbody></table></div>'
+after 5 tries.
+Verifying container value.....
+Last container value: ''
+after 1 tries.
+Verifying container value.....
+Last container value: '<div id="d1::msgDlg" class="xim"><div class="x1kt" _afrpanelwindowbackground="1"></div><div class="x1kt" _afrpanelwindowbackground="1"></div><div class="x1kt" _afrpanelwindowbackground="1"></div><div class="x1kt" _afrpanelwindowbackground="1"></div><table summary="" class="xej" border="0" cellpadding="0" cellspacing="0"><tbody><tr><td class="p_AFResizable x1jw" id="d1::msgDlg::_hse">&nbsp;</td><td class="p_AFResizable x1jy" id="d1::msgDlg::_hce"><table summary="" width="100%" border="0" cellpadding="0" cellspacing="0"><tbody><tr><td><div id="d1::msgDlg::_ticn" class="x1kn" style="display:none"></div></td><td class="x1k2" id="d1::msgDlg::tb"><div id="d1::msgDlg::_ttxt" class="x1kl"></div></td><td><div class="x1kp"><a href="#" onclick="return false" class="x1kg" id="d1::msgDlg::close" title="Close"></a></div></td></tr></tbody></table></td><td class="p_AFResizable x1k0" id="d1::msgDlg::_hee">&nbsp;</td></tr><tr><td class="p_AFResizable xlj" id="d1::msgDlg::_cse">&nbsp;</td><td class="p_AFResizable x1o" id="d1::msgDlg::contentContainer"><div id="d1::msgDlg::_ccntr" class="x1k5" style="position:relative;overflow:auto;"><div id="d1::msgDlg::_cnt" class="x1gm"></div></div></td><td class="p_AFResizable xls" id="d1::msgDlg::_cee">&nbsp;</td></tr><tr><td class="p_AFResizable x1k9" id="d1::msgDlg::_fse"><div></div></td><td class="p_AFResizable x1kb" id="d1::msgDlg::_fce"><table summary="" width="100%" border="0" cellpadding="0" cellspacing="0"><tbody><tr><td class="p_AFResizable x1ke" id="d1::msgDlg::_fcc"><button _afrpdo="cancel" type="button" id="d1::msgDlg::cancel" class="xqv p_AFTextOnly" onclick="return false;">OK</button></td><td valign="bottom" align="left"><div class="p_AFResizable x1kk"><a tabindex="-1" class="x1ki" id="d1::msgDlg::_ree" title="Resize"></a></div></td></tr></tbody></table></td><td class="p_AFResizable x1kd" id="d1::msgDlg::_fee"><div></div></td></tr></tbody></table></div>'
+after 5 tries.
+Verifying container value.....
+Last container value: ''
+after 1 tries.
+Verifying container value.....
+Last container value: '<div id="d1::msgDlg" class="xim"><div class="x1kt" _afrpanelwindowbackground="1"></div><div class="x1kt" _afrpanelwindowbackground="1"></div><div class="x1kt" _afrpanelwindowbackground="1"></div><div class="x1kt" _afrpanelwindowbackground="1"></div><table summary="" class="xej" border="0" cellpadding="0" cellspacing="0"><tbody><tr><td class="p_AFResizable x1jw" id="d1::msgDlg::_hse">&nbsp;</td><td class="p_AFResizable x1jy" id="d1::msgDlg::_hce"><table summary="" width="100%" border="0" cellpadding="0" cellspacing="0"><tbody><tr><td><div id="d1::msgDlg::_ticn" class="x1kn" style="display:none"></div></td><td class="x1k2" id="d1::msgDlg::tb"><div id="d1::msgDlg::_ttxt" class="x1kl"></div></td><td><div class="x1kp"><a href="#" onclick="return false" class="x1kg" id="d1::msgDlg::close" title="Close"></a></div></td></tr></tbody></table></td><td class="p_AFResizable x1k0" id="d1::msgDlg::_hee">&nbsp;</td></tr><tr><td class="p_AFResizable xlj" id="d1::msgDlg::_cse">&nbsp;</td><td class="p_AFResizable x1o" id="d1::msgDlg::contentContainer"><div id="d1::msgDlg::_ccntr" class="x1k5" style="position:relative;overflow:auto;"><div id="d1::msgDlg::_cnt" class="x1gm"></div></div></td><td class="p_AFResizable xls" id="d1::msgDlg::_cee">&nbsp;</td></tr><tr><td class="p_AFResizable x1k9" id="d1::msgDlg::_fse"><div></div></td><td class="p_AFResizable x1kb" id="d1::msgDlg::_fce"><table summary="" width="100%" border="0" cellpadding="0" cellspacing="0"><tbody><tr><td class="p_AFResizable x1ke" id="d1::msgDlg::_fcc"><button _afrpdo="cancel" type="button" id="d1::msgDlg::cancel" class="xqv p_AFTextOnly" onclick="return false;">OK</button></td><td valign="bottom" align="left"><div class="p_AFResizable x1kk"><a tabindex="-1" class="x1ki" id="d1::msgDlg::_ree" title="Resize"></a></div></td></tr></tbody></table></td><td class="p_AFResizable x1kd" id="d1::msgDlg::_fee"><div></div></td></tr></tbody></table></div>'
+after 5 tries.
+Verifying container value.....
+Last container value: ''
+after 1 tries.
+Verifying container value.....
+Last container value: '<div id="d1::msgDlg" class="xim"><div class="x1kt" _afrpanelwindowbackground="1"></div><div class="x1kt" _afrpanelwindowbackground="1"></div><div class="x1kt" _afrpanelwindowbackground="1"></div><div class="x1kt" _afrpanelwindowbackground="1"></div><table summary="" class="xej" border="0" cellpadding="0" cellspacing="0"><tbody><tr><td class="p_AFResizable x1jw" id="d1::msgDlg::_hse">&nbsp;</td><td class="p_AFResizable x1jy" id="d1::msgDlg::_hce"><table summary="" width="100%" border="0" cellpadding="0" cellspacing="0"><tbody><tr><td><div id="d1::msgDlg::_ticn" class="x1kn" style="display:none"></div></td><td class="x1k2" id="d1::msgDlg::tb"><div id="d1::msgDlg::_ttxt" class="x1kl"></div></td><td><div class="x1kp"><a href="#" onclick="return false" class="x1kg" id="d1::msgDlg::close" title="Close"></a></div></td></tr></tbody></table></td><td class="p_AFResizable x1k0" id="d1::msgDlg::_hee">&nbsp;</td></tr><tr><td class="p_AFResizable xlj" id="d1::msgDlg::_cse">&nbsp;</td><td class="p_AFResizable x1o" id="d1::msgDlg::contentContainer"><div id="d1::msgDlg::_ccntr" class="x1k5" style="position:relative;overflow:auto;"><div id="d1::msgDlg::_cnt" class="x1gm"></div></div></td><td class="p_AFResizable xls" id="d1::msgDlg::_cee">&nbsp;</td></tr><tr><td class="p_AFResizable x1k9" id="d1::msgDlg::_fse"><div></div></td><td class="p_AFResizable x1kb" id="d1::msgDlg::_fce"><table summary="" width="100%" border="0" cellpadding="0" cellspacing="0"><tbody><tr><td class="p_AFResizable x1ke" id="d1::msgDlg::_fcc"><button _afrpdo="cancel" type="button" id="d1::msgDlg::cancel" class="xqv p_AFTextOnly" onclick="return false;">OK</button></td><td valign="bottom" align="left"><div class="p_AFResizable x1kk"><a tabindex="-1" class="x1ki" id="d1::msgDlg::_ree" title="Resize"></a></div></td></tr></tbody></table></td><td class="p_AFResizable x1kd" id="d1::msgDlg::_fee"><div></div></td></tr></tbody></table></div>'
+after 5 tries.
+Verifying container value.....
+Last container value: ''
+after 1 tries.
+Verifying container value.....
+Last container value: '<div id="d1::msgDlg" class="xim"><div class="x1kt" _afrpanelwindowbackground="1"></div><div class="x1kt" _afrpanelwindowbackground="1"></div><div class="x1kt" _afrpanelwindowbackground="1"></div><div class="x1kt" _afrpanelwindowbackground="1"></div><table summary="" class="xej" border="0" cellpadding="0" cellspacing="0"><tbody><tr><td class="p_AFResizable x1jw" id="d1::msgDlg::_hse">&nbsp;</td><td class="p_AFResizable x1jy" id="d1::msgDlg::_hce"><table summary="" width="100%" border="0" cellpadding="0" cellspacing="0"><tbody><tr><td><div id="d1::msgDlg::_ticn" class="x1kn" style="display:none"></div></td><td class="x1k2" id="d1::msgDlg::tb"><div id="d1::msgDlg::_ttxt" class="x1kl"></div></td><td><div class="x1kp"><a href="#" onclick="return false" class="x1kg" id="d1::msgDlg::close" title="Close"></a></div></td></tr></tbody></table></td><td class="p_AFResizable x1k0" id="d1::msgDlg::_hee">&nbsp;</td></tr><tr><td class="p_AFResizable xlj" id="d1::msgDlg::_cse">&nbsp;</td><td class="p_AFResizable x1o" id="d1::msgDlg::contentContainer"><div id="d1::msgDlg::_ccntr" class="x1k5" style="position:relative;overflow:auto;"><div id="d1::msgDlg::_cnt" class="x1gm"></div></div></td><td class="p_AFResizable xls" id="d1::msgDlg::_cee">&nbsp;</td></tr><tr><td class="p_AFResizable x1k9" id="d1::msgDlg::_fse"><div></div></td><td class="p_AFResizable x1kb" id="d1::msgDlg::_fce"><table summary="" width="100%" border="0" cellpadding="0" cellspacing="0"><tbody><tr><td class="p_AFResizable x1ke" id="d1::msgDlg::_fcc"><button _afrpdo="cancel" type="button" id="d1::msgDlg::cancel" class="xqv p_AFTextOnly" onclick="return false;">OK</button></td><td valign="bottom" align="left"><div class="p_AFResizable x1kk"><a tabindex="-1" class="x1ki" id="d1::msgDlg::_ree" title="Resize"></a></div></td></tr></tbody></table></td><td class="p_AFResizable x1kd" id="d1::msgDlg::_fee"><div></div></td></tr></tbody></table></div>'
+after 5 tries.
+Verifying container value.....
+Last container value: ''
+after 1 tries.
+Verifying container value.....
+Last container value: '<div id="d1::msgDlg" class="xim"><div class="x1kt" _afrpanelwindowbackground="1"></div><div class="x1kt" _afrpanelwindowbackground="1"></div><div class="x1kt" _afrpanelwindowbackground="1"></div><div class="x1kt" _afrpanelwindowbackground="1"></div><table summary="" class="xej" border="0" cellpadding="0" cellspacing="0"><tbody><tr><td class="p_AFResizable x1jw" id="d1::msgDlg::_hse">&nbsp;</td><td class="p_AFResizable x1jy" id="d1::msgDlg::_hce"><table summary="" width="100%" border="0" cellpadding="0" cellspacing="0"><tbody><tr><td><div id="d1::msgDlg::_ticn" class="x1kn" style="display:none"></div></td><td class="x1k2" id="d1::msgDlg::tb"><div id="d1::msgDlg::_ttxt" class="x1kl"></div></td><td><div class="x1kp"><a href="#" onclick="return false" class="x1kg" id="d1::msgDlg::close" title="Close"></a></div></td></tr></tbody></table></td><td class="p_AFResizable x1k0" id="d1::msgDlg::_hee">&nbsp;</td></tr><tr><td class="p_AFResizable xlj" id="d1::msgDlg::_cse">&nbsp;</td><td class="p_AFResizable x1o" id="d1::msgDlg::contentContainer"><div id="d1::msgDlg::_ccntr" class="x1k5" style="position:relative;overflow:auto;"><div id="d1::msgDlg::_cnt" class="x1gm"></div></div></td><td class="p_AFResizable xls" id="d1::msgDlg::_cee">&nbsp;</td></tr><tr><td class="p_AFResizable x1k9" id="d1::msgDlg::_fse"><div></div></td><td class="p_AFResizable x1kb" id="d1::msgDlg::_fce"><table summary="" width="100%" border="0" cellpadding="0" cellspacing="0"><tbody><tr><td class="p_AFResizable x1ke" id="d1::msgDlg::_fcc"><button _afrpdo="cancel" type="button" id="d1::msgDlg::cancel" class="xqv p_AFTextOnly" onclick="return false;">OK</button></td><td valign="bottom" align="left"><div class="p_AFResizable x1kk"><a tabindex="-1" class="x1ki" id="d1::msgDlg::_ree" title="Resize"></a></div></td></tr></tbody></table></td><td class="p_AFResizable x1kd" id="d1::msgDlg::_fee"><div></div></td></tr></tbody></table></div>'
+after 5 tries.
+Verifying container value.....
+Last container value: ''
+after 1 tries.
+Verifying container value.....
+Last container value: '<div id="d1::msgDlg" class="xim"><div class="x1kt" _afrpanelwindowbackground="1"></div><div class="x1kt" _afrpanelwindowbackground="1"></div><div class="x1kt" _afrpanelwindowbackground="1"></div><div class="x1kt" _afrpanelwindowbackground="1"></div><table summary="" class="xej" border="0" cellpadding="0" cellspacing="0"><tbody><tr><td class="p_AFResizable x1jw" id="d1::msgDlg::_hse">&nbsp;</td><td class="p_AFResizable x1jy" id="d1::msgDlg::_hce"><table summary="" width="100%" border="0" cellpadding="0" cellspacing="0"><tbody><tr><td><div id="d1::msgDlg::_ticn" class="x1kn" style="display:none"></div></td><td class="x1k2" id="d1::msgDlg::tb"><div id="d1::msgDlg::_ttxt" class="x1kl"></div></td><td><div class="x1kp"><a href="#" onclick="return false" class="x1kg" id="d1::msgDlg::close" title="Close"></a></div></td></tr></tbody></table></td><td class="p_AFResizable x1k0" id="d1::msgDlg::_hee">&nbsp;</td></tr><tr><td class="p_AFResizable xlj" id="d1::msgDlg::_cse">&nbsp;</td><td class="p_AFResizable x1o" id="d1::msgDlg::contentContainer"><div id="d1::msgDlg::_ccntr" class="x1k5" style="position:relative;overflow:auto;"><div id="d1::msgDlg::_cnt" class="x1gm"></div></div></td><td class="p_AFResizable xls" id="d1::msgDlg::_cee">&nbsp;</td></tr><tr><td class="p_AFResizable x1k9" id="d1::msgDlg::_fse"><div></div></td><td class="p_AFResizable x1kb" id="d1::msgDlg::_fce"><table summary="" width="100%" border="0" cellpadding="0" cellspacing="0"><tbody><tr><td class="p_AFResizable x1ke" id="d1::msgDlg::_fcc"><button _afrpdo="cancel" type="button" id="d1::msgDlg::cancel" class="xqv p_AFTextOnly" onclick="return false;">OK</button></td><td valign="bottom" align="left"><div class="p_AFResizable x1kk"><a tabindex="-1" class="x1ki" id="d1::msgDlg::_ree" title="Resize"></a></div></td></tr></tbody></table></td><td class="p_AFResizable x1kd" id="d1::msgDlg::_fee"><div></div></td></tr></tbody></table></div>'
+after 5 tries.
+Verifying container value.....
+Last container value: ''
+after 1 tries.
+Verifying container value.....
+Last container value: '<div id="d1::msgDlg" class="xim"><div class="x1kt" _afrpanelwindowbackground="1"></div><div class="x1kt" _afrpanelwindowbackground="1"></div><div class="x1kt" _afrpanelwindowbackground="1"></div><div class="x1kt" _afrpanelwindowbackground="1"></div><table summary="" class="xej" border="0" cellpadding="0" cellspacing="0"><tbody><tr><td class="p_AFResizable x1jw" id="d1::msgDlg::_hse">&nbsp;</td><td class="p_AFResizable x1jy" id="d1::msgDlg::_hce"><table summary="" width="100%" border="0" cellpadding="0" cellspacing="0"><tbody><tr><td><div id="d1::msgDlg::_ticn" class="x1kn" style="display:none"></div></td><td class="x1k2" id="d1::msgDlg::tb"><div id="d1::msgDlg::_ttxt" class="x1kl"></div></td><td><div class="x1kp"><a href="#" onclick="return false" class="x1kg" id="d1::msgDlg::close" title="Close"></a></div></td></tr></tbody></table></td><td class="p_AFResizable x1k0" id="d1::msgDlg::_hee">&nbsp;</td></tr><tr><td class="p_AFResizable xlj" id="d1::msgDlg::_cse">&nbsp;</td><td class="p_AFResizable x1o" id="d1::msgDlg::contentContainer"><div id="d1::msgDlg::_ccntr" class="x1k5" style="position:relative;overflow:auto;"><div id="d1::msgDlg::_cnt" class="x1gm"></div></div></td><td class="p_AFResizable xls" id="d1::msgDlg::_cee">&nbsp;</td></tr><tr><td class="p_AFResizable x1k9" id="d1::msgDlg::_fse"><div></div></td><td class="p_AFResizable x1kb" id="d1::msgDlg::_fce"><table summary="" width="100%" border="0" cellpadding="0" cellspacing="0"><tbody><tr><td class="p_AFResizable x1ke" id="d1::msgDlg::_fcc"><button _afrpdo="cancel" type="button" id="d1::msgDlg::cancel" class="xqv p_AFTextOnly" onclick="return false;">OK</button></td><td valign="bottom" align="left"><div class="p_AFResizable x1kk"><a tabindex="-1" class="x1ki" id="d1::msgDlg::_ree" title="Resize"></a></div></td></tr></tbody></table></td><td class="p_AFResizable x1kd" id="d1::msgDlg::_fee"><div></div></td></tr></tbody></table></div>'
+after 5 tries.
+Element is now visible after 18 second/s.....
+Clicking Submit button...
+]]></system-out>
+  </testcase>
+</testsuite>
